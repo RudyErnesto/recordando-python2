@@ -22,5 +22,41 @@ print('Day 2\t3\t5')
 print('Day 3\t3\t5')
 print('Day 4\t3\t5')
 print('This is a backslash  symbol (\\)') # como se escribe backslash
-print('In every programming language it starts with \"Hello, World!\"') # como se escribe doble quote en un simple quote
+print('In every programming palabra it starts with \"Hello, World!\"') # como se escribe doble quote en un simple quote
+
+#manejo del contenido del string
+palabra = 'python'
+primera_letra= palabra[0]
+print(primera_letra)
+#otra manera de manejar desde la ultima letra
+ultimo_letra = palabra[-1]
+print(ultimo_letra)
+penultima_letra = palabra[-2]
+print(penultima_letra)
+
+palabra_slice = palabra[1:3]
+print(palabra_slice)
+
+palabra_slice = palabra[1:]
+print(palabra_slice)
+
+palabra_slice = palabra[0:6:2]
+print(palabra_slice)
+
+# Reverse
+
+reversed_palabra = palabra[::-1]
+print(reversed_palabra)
+
+# Funciones del lenguaje
+
+print(palabra.capitalize())
+print(palabra.upper())
+print(palabra.count("t"))
+print(palabra.isnumeric())
+print("1".isnumeric())
+print(palabra.lower())
+print(palabra.lower().isupper())
+print(palabra.startswith("Py"))
+print("Py" == "py")  # No es lo mismo
 
