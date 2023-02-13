@@ -54,6 +54,7 @@ print(first_name)               # 'rudy'
 first_name_to_list = list(first_name)
 print(first_name_to_list)            # ['R','u','d', 'y']
 
+#inputs
 nombre = input('cual es tu nombre?')
 edad = input('cual es tu edad?')
 print(nombre)
