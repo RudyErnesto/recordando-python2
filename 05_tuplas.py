@@ -13,15 +13,16 @@ print(type(my_tuple))
 
 # Acceso a elementos y búsqueda
 
-print(my_tuple[0])
-print(my_tuple[-1])
+print(my_tuple[0]) #35
+print(my_tuple[-1]) #casa
 # print(my_tuple[4]) IndexError
 # print(my_tuple[-6]) IndexError
 
-print(my_tuple.count("Casa"))
-print(my_tuple.index("Rudy"))
-print(my_tuple.index("Casa"))
+print(my_tuple.count("Casa")) #2  porque tenemos 2 veces casa
+print(my_tuple.index("Rudy")) #3 la posicion 3
+print(my_tuple.index("Casa")) #2
 
+print()
 # my_tuple[1] = 1.80 'tuple' object does not support item assignment
 
 # Concatenación
