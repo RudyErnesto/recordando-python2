@@ -8,29 +8,29 @@ my_other_set = {}
 print(type(my_set))
 print(type(my_other_set))  # Inicialmente es un diccionario
 
-my_other_set = {"Brais", "Moure", 35}
+my_other_set = {"Rudy", "Escalera", 35}
 print(type(my_other_set))
 
 print(len(my_other_set))
 
 # Inserción
 
-my_other_set.add("MoureDev")
+my_other_set.add("EscaleraDev")
 
 print(my_other_set)  # Un set no es una estructura ordenada
 
-my_other_set.add("MoureDev")  # Un set no admite repetidos
+my_other_set.add("EscaleraDev")  # Un set no admite repetidos
 
 print(my_other_set)
 
 # Búsqueda
 
-print("Moure" in my_other_set)
-print("Mouri" in my_other_set)
+print("Escalera" in my_other_set)
+print("Rudy" in my_other_set)
 
 # Eliminación
 
-my_other_set.remove("Moure")
+my_other_set.remove("Escalera")
 print(my_other_set)
 
 my_other_set.clear()
@@ -41,12 +41,12 @@ del my_other_set
 
 # Transformación
 
-my_set = {"Brais", "Moure", 35}
+my_set = {"Rudy", "Escalera", 35}
 my_list = list(my_set)
 print(my_list)
 print(my_list[0])
 
-my_other_set = {"Kotlin", "Swift", "Python"}
+my_other_set = {"C#.net", "Swift", "Python"}
 
 # Otras operaciones
 
