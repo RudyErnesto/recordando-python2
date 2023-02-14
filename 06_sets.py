@@ -9,7 +9,7 @@ print(type(my_set))
 print(type(my_other_set))  # Inicialmente es un diccionario
 
 my_other_set = {"Rudy", "Escalera", 35}
-print(type(my_other_set))
+print(type(my_other_set)) #magicamente ya es un set
 
 print(len(my_other_set))
 
